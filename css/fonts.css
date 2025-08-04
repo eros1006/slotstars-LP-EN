@@ -1,0 +1,396 @@
+@charset "UTF-8";
+
+/*
+	Fonts for Fonbet and Bettery
+	Version: 1.0.0
+	Date: 2021-07-13
+	Author: tyahin <tyahin@bkfon.ru>
+	File: fonts.css
+*/
+
+
+/* Cera Pro */
+/* font get from site https://webfonts.pro/base-web-fonts/sans-serif-grotesque/915-cera-pro.html */
+
+@font-face {
+	font-weight: 100;
+	font-family: 'Cera Pro';
+	src: url('../fonts/CeraPro-Thin.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 100;
+	font-family: 'Cera Pro';
+	src: url('../fonts/CeraPro-ThinItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 300;
+	font-family: 'Cera Pro';
+	src: url('../fonts/CeraPro-Light.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 300;
+	font-family: 'Cera Pro';
+	src: url('../fonts/CeraPro-LightItalic.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Cera Pro';
+	src: url('../fonts/CeraPro-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-family: 'Cera Pro';
+	src: url('../fonts/CeraPro-Italic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 500;
+	font-family: 'Cera Pro';
+	src: url('../fonts/CeraPro-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 500;
+	font-family: 'Cera Pro';
+	src: url('../fonts/CeraPro-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-family: 'Cera Pro';
+	src: url('../fonts/CeraPro-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: bold;
+	font-family: 'Cera Pro';
+	src: url('../fonts/CeraPro-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 900;
+	font-family: 'Cera Pro';
+	src: url('../fonts/CeraPro-Black.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 900;
+	font-family: 'Cera Pro';
+	src: url('../fonts/CeraPro-BlackItalic.woff') format('woff');
+}
+
+.cera-pro { font-family: Cera Pro, Arial, sans-serif }
+
+
+/* Druk */
+/* font get from site https://webfonts.pro/base-web-fonts/sans-serif-grotesque/1339-druk-cyr.html */
+
+@font-face {
+	font-weight: 900;
+	font-family: Druk;
+	font-stretch: ultra-condensed;
+	src: url('../fonts/DrukXXCondCy-Super.woff2') format('woff2'), url('../fonts/DrukXXCondCy-Super.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 900;
+	font-family: Druk;
+	font-stretch: ultra-condensed;
+	src: url('../fonts/DrukXXCondCy-SuperItalic.woff2') format('woff2'), url('../fonts/DrukXXCondCy-SuperItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 900;
+	font-family: Druk;
+	font-stretch: extra-condensed;
+	src: url('../fonts/DrukXCondCy-Super.woff2') format('woff2'), url('../fonts/DrukXCondCy-Super.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 900;
+	font-family: Druk;
+	font-stretch: extra-condensed;
+	src: url('../fonts/DrukXCondCy-SuperItalic.woff2') format('woff2'), url('../fonts/DrukXCondCy-SuperItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 900;
+	font-family: Druk;
+	font-stretch: condensed;
+	src: url('../fonts/DrukCondCy-Super.woff2') format('woff2'), url('../fonts/DrukCondCy-Super.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 900;
+	font-family: Druk;
+	font-stretch: condensed;
+	src: url('../fonts/DrukCondCy-SuperItalic.woff2') format('woff2'), url('../fonts/DrukCondCy-SuperItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 500;
+	font-family: Druk;
+	src: url('../fonts/DrukCy-Medium.woff2') format('woff2'), url('../fonts/DrukCy-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 500;
+	font-family: Druk;
+	src: url('../fonts/DrukCy-MediumItalic.woff2') format('woff2'), url('../fonts/DrukCy-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-family: Druk;
+	src: url('../fonts/DrukCy-Bold.woff2') format('woff2'), url('../fonts/DrukCy-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: bold;
+	font-family: Druk;
+	src: url('../fonts/DrukCy-BoldItalic.woff2') format('woff2'), url('../fonts/DrukCy-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 800;
+	font-family: Druk;
+	src: url('../fonts/DrukCy-Heavy.woff2') format('woff2'), url('../fonts/DrukCy-Heavy.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 800;
+	font-family: Druk;
+	src: url('../fonts/DrukCy-HeavyItalic.woff2') format('woff2'), url('../fonts/DrukCy-HeavyItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 900;
+	font-family: Druk;
+	src: url('../fonts/DrukCy-Super.woff2') format('woff2'), url('../fonts/DrukCy-Super.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 900;
+	font-family: Druk;
+	src: url('../fonts/DrukCy-SuperItalic.woff2') format('woff2'), url('../fonts/DrukCy-SuperItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 500;
+	font-family: Druk;
+	font-stretch: expanded;
+	src: url('../fonts/DrukTextWideCy-Medium.woff2') format('woff2'), url('../fonts/DrukTextWideCy-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 500;
+	font-family: Druk;
+	font-stretch: expanded;
+	src: url('../fonts/DrukTextWideCy-MediumItalic.woff2') format('woff2'), url('../fonts/DrukTextWideCy-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-family: Druk;
+	font-stretch: expanded;
+	src: url('../fonts/DrukTextWideCy-Bold.woff2') format('woff2'), url('../fonts/DrukTextWideCy-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: bold;
+	font-family: Druk;
+	font-stretch: expanded;
+	src: url('../fonts/DrukTextWideCy-BoldItalic.woff2') format('woff2'), url('../fonts/DrukTextWideCy-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 800;
+	font-family: Druk;
+	font-stretch: expanded;
+	src: url('../fonts/DrukTextWideCy-Heavy.woff2') format('woff2'), url('../fonts/DrukTextWideCy-Heavy.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 800;
+	font-family: Druk;
+	font-stretch: expanded;
+	src: url('../fonts/DrukTextWideCy-HeavyItalic.woff2') format('woff2'), url('../fonts/DrukTextWideCy-HeavyItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 900;
+	font-family: Druk;
+	font-stretch: expanded;
+	src: url('../fonts/DrukTextWideCy-Super.woff2') format('woff2'), url('../fonts/DrukTextWideCy-Super.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 900;
+	font-family: Druk;
+	font-stretch: expanded;
+	src: url('../fonts/DrukTextWideCy-SuperItalic.woff2') format('woff2'), url('../fonts/DrukTextWideCy-SuperItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 500;
+	font-family: Druk;
+	font-stretch: extra-expanded;
+	src: url('../fonts/DrukWideCy-Medium.woff2') format('woff2'), url('../fonts/DrukWideCy-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 500;
+	font-family: Druk;
+	font-stretch: extra-expanded;
+	src: url('../fonts/DrukWideCy-MediumItalic.woff2') format('woff2'), url('../fonts/DrukWideCy-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-family: Druk;
+	font-stretch: extra-expanded;
+	src: url('../fonts/DrukWideCy-Bold.woff2') format('woff2'), url('../fonts/DrukWideCy-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: bold;
+	font-family: Druk;
+	font-stretch: extra-expanded;
+	src: url('../fonts/DrukWideCy-BoldItalic.woff2') format('woff2'), url('../fonts/DrukWideCy-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 800;
+	font-family: Druk;
+	font-stretch: extra-expanded;
+	src: url('../fonts/DrukWideCy-Heavy.woff2') format('woff2'), url('../fonts/DrukWideCy-Heavy.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 800;
+	font-family: Druk;
+	font-stretch: extra-expanded;
+	src: url('../fonts/DrukWideCy-HeavyItalic.woff2') format('woff2'), url('../fonts/DrukWideCy-HeavyItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 900;
+	font-family: Druk;
+	font-stretch: extra-expanded;
+	src: url('../fonts/DrukWideCy-Super.woff2') format('woff2'), url('../fonts/DrukWideCy-Super.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 900;
+	font-family: Druk;
+	font-stretch: extra-expanded;
+	src: url('../fonts/DrukWideCy-SuperItalic.woff2') format('woff2'), url('../fonts/DrukWideCy-SuperItalic.woff') format('woff');
+}
+
+.druk { font-family: Druk, Arial, sans-serif }
+
+
+/* Whitney */
+/* font get from site https://webfonts.pro/base-web-fonts/sans-serif-grotesque/898-whitney.html */
+
+@font-face {
+	font-weight: 300;
+	font-family: Whitney;
+	src: url('../fonts/Whitney-Light.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 300;
+	font-family: Whitney;
+	src: url('../fonts/Whitney-LightItalic.woff') format('woff');
+}
+
+@font-face {
+	font-family: Whitney;
+	src: url('../fonts/Whitney-Book.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-family: Whitney;
+	src: url('../fonts/Whitney-BookItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 500;
+	font-family: Whitney;
+	src: url('../fonts/Whitney-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 500;
+	font-family: Whitney;
+	src: url('../fonts/Whitney-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 600;
+	font-family: Whitney;
+	src: url('../fonts/Whitney-Semibold.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 600;
+	font-family: Whitney;
+	src: url('../fonts/Whitney-SemiboldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-family: Whitney;
+	src: url('../fonts/Whitney-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: bold;
+	font-family: Whitney;
+	src: url('../fonts/Whitney-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 900;
+	font-family: Whitney;
+	src: url('../fonts/Whitney-Black.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 900;
+	font-family: Whitney;
+	src: url('../fonts/Whitney-BlackItalic.woff') format('woff');
+}
+
+.whitney { font-family: Whitney, Arial, sans-serif }

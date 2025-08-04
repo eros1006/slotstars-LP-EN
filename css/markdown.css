@@ -1,0 +1,59 @@
+/* markdown */
+
+.markdown h1 {
+	font-weight: 900;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.markdown h2,
+.markdown h3 {
+	font-weight: 500;
+	font-size: 18px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.markdown h4,
+.markdown h5 {
+	font-weight: 500;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.markdown p {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.markdown ol,
+.markdown ul {
+	padding-left: 1em;
+	margin-bottom: 20px;
+}
+
+.markdown li {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.markdown table {
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+.markdown th,
+.markdown td {
+	font-size: 14px;
+	padding: 5px 10px;
+	border: 1px solid black;
+}
+
+.markdown hr {
+	margin-bottom: 20px;
+}
+
+.markdown a  {
+	text-decoration: underline;
+}
